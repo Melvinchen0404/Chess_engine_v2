@@ -13,6 +13,6 @@ Up to 5 games displayed, with surnames kept (using the .split()[0] function) and
 **Chess engines**
 
 
-Stockfish: github.com/official-stockfish/Stockfish 
+Stockfish: https://stockfishchess.org/
 
-Komodo: https://komodochess.com/downloads.htm
+Komodo: https://komodochess.com
