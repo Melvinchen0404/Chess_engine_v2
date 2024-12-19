@@ -1,5 +1,5 @@
 # Chess_engine_v2
-**Lichess GM database:**
+**Lichess GM database:** \\
 File for retrieving the correct keys for the dictionary metadata to extract information: gm_database_testing.py
 Dictionary keys: 'white', 'draws', 'black', 'moves', 'topGames', 'opening' 
 The structure for 'topGames': 'uci', 'id', 'winner', 'white' {'name', 'rating'}, 'black' {'name', 'rating'}, 'year', 'month'
