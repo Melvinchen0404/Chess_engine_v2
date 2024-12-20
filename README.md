@@ -23,6 +23,16 @@ Download a Linux-based version of Komodo from <a href="https://komodochess.com/d
 
 Upload the executable (<code>.exe</code> file) on Colab and access the Komodo engine
 
+**Lichess openings dataset**
+
+Dictionary keys: <code>'eco-volume', 'eco', 'name', 'pgn', 'uci', 'epd'</code>
+
+The <i>Encyclopaedia of Chess Openings</i> (<i>ECO</i>) is a reference work, originally published in five volumes (A-E) from 1974-1979 
+
+PGN (Portable Game Notation) typically uses Standard Algebraic Notation (SAN) to represent chess moves
+
+Extended Position Description (EPD) is an extension of FEN (Forsyth–Edwards Notation)
+
 **Endgame tablebase**
 
 **Lichess Syzygy endgame tablebase (EGTB)** is accessible through API requests: <a href="http://tablebase.lichess.ovh/standard?fen=">http://tablebase.lichess.ovh/standard?fen=</a><code>{fen}</code>
