@@ -1,4 +1,4 @@
-# Chess_engine_v2
+# Chess_engine (Sapientia_v6)
 **Lichess GM database**
 
 File for retrieving the correct keys for the dictionary metadata to extract information: <code>gm_database_testing.py</code>
