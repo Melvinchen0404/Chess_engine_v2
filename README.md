@@ -1,7 +1,13 @@
 # Chess_engine_v2
 **Lichess GM database** 
 
-File for retrieving the correct keys for the dictionary metadata to extract information: gm_database_testing.py
+<style>
+  code {
+    font-family: "Courier New", Courier, monospace;
+  }
+</style>
+
+File for retrieving the correct keys for the dictionary metadata to extract information: <code>gm_database_testing.py</code>
 
 Dictionary keys: 'white', 'draws', 'black', 'moves', 'topGames', 'opening' 
 
