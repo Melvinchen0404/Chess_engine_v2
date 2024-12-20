@@ -25,6 +25,8 @@ Upload the executable (<code>.exe</code> file) on Colab and access the Komodo en
 
 **Lichess openings dataset**
 
+**Lichess openings dataset** is available on Hugging Face: https://huggingface.co/datasets/Lichess/chess-openings
+
 Dictionary keys: <code>'eco-volume', 'eco', 'name', 'pgn', 'uci', 'epd'</code>
 
 The <i>Encyclopaedia of Chess Openings</i> (<i>ECO</i>) is a reference work, originally published in five volumes (A-E) from 1974-1979 
