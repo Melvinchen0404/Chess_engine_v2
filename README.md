@@ -50,7 +50,7 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
   </tr>
     <tr>
     <td><code>'name'</code></td>
-    <td>Name of opening (for instance, Polish Opening, )</td>
+    <td>Name of opening (for instance, Polish Opening, Nimzo-Larsen Attack, Zukertort Defense: Sicilian Knight Variation, and so on)</td>
   </tr>
     <tr>
     <td><code>'pgn'</code></td>
