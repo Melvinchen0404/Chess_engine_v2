@@ -43,6 +43,8 @@ The **Lichess Syzygy EGTB** allows us to access information about WDL (Win/Draw/
 
 **Sound files**
 
-The <code>game_start.mp3</code> file (for initialization and reset of board) should be uploaded in a 'sounds' folder
+The following <code>.mp3</code> files should be uploaded in a 'sounds' folder:
+<code>game_start.mp3</code> (for initialization and reset of board)
+<code>move.mp3</code> (for each valid move)
 
 Source: https://www.chess.com/forum/view/general/chessboard-sound-files?page=2#comment-89885805
