@@ -1,5 +1,5 @@
 # Chess_engine (Sapientia_v6)
-**Lichess GM database**
+**Lichess GM database:**
 
 File for retrieving the correct keys for the dictionary metadata to extract information: <code>gm_database_testing.py</code>
 
@@ -11,7 +11,7 @@ File for checking the GM database for the best move from the current position (g
 
 Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> function) and commas after surnames removed (using the <code>re.sub(r"[^\w\s]", ""</code> function to remove non-alphanumeric and non-whitespace characters from a string)
 
-**Chess engines**
+**Chess engines:**
 
 <table>
   <tr>
@@ -31,7 +31,7 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
   </tr>
 </table>
 
-**Lichess openings dataset**
+**Lichess openings dataset:**
 
 **Lichess openings dataset** is available on Hugging Face: https://huggingface.co/datasets/Lichess/chess-openings
 
@@ -67,13 +67,13 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
   </tr>
 </table>
 
-**Endgame tablebase**
+**Endgame tablebase:**
 
 **Lichess Syzygy endgame tablebase (EGTB)** is accessible through API requests: <a href="http://tablebase.lichess.ovh/standard?fen=">http://tablebase.lichess.ovh/standard?fen=</a><code>{fen}</code>
 
 The **Lichess Syzygy EGTB** allows us to access information about WDL (Win/Draw/Loss) and DTZ (Depth to Zero)
 
-**Sound files**
+**Sound files:**
 
 The following <code>.mp3</code> files should be uploaded in a 'sounds' folder:
 <table>
