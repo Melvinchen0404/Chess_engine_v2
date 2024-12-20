@@ -35,6 +35,14 @@ PGN (Portable Game Notation) typically uses Standard Algebraic Notation (SAN) to
 
 Extended Position Description (EPD) is an extension of FEN (Forsyth–Edwards Notation)
 
+**Sound files**
+
+The sound files should be uploaded in a 'sounds' folder
+
+Source for <code>.mp3</code> files: https://www.chess.com/forum/view/general/chessboard-sound-files?page=2#comment-89885805
+
+<code>game_start.mp3</code> (for initialization of board and reset)
+
 **Endgame tablebase**
 
 **Lichess Syzygy endgame tablebase (EGTB)** is accessible through API requests: <a href="http://tablebase.lichess.ovh/standard?fen=">http://tablebase.lichess.ovh/standard?fen=</a><code>{fen}</code>
