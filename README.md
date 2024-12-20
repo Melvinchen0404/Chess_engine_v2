@@ -42,11 +42,11 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
   </tr>
   <tr>
     <td><code>'eco-volume'</code></td>
-    <td>The <i>Encyclopaedia of Chess Openings</i> (<i>ECO</i>) is a reference work, originally published in five volumes (A-E) from 1974-1979</td>
+    <td>The <i>Encyclopaedia of Chess Openings</i> (<i>ECO</i>) volume in which the opening appears. <i>ECO</i> is a reference work, originally published in five volumes (A-E) from 1974-1979</td>
   </tr>
   <tr>
     <td><code>'eco'</code></td>
-    <td></td>
+    <td>The <i>ECO</i> classification code for the opening</td>
   </tr>
     <tr>
     <td><code>'name'</code></td>
@@ -54,16 +54,16 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
   </tr>
     <tr>
     <td><code>'pgn'</code></td>
-    <td>PGN (Portable Game Notation) typically uses Standard Algebraic Notation (SAN) to represent chess moves</td>
+    <td>The PGN (Portable Game Notation) for the opening. PGN typically uses Standard Algebraic Notation (SAN) to represent chess moves</td>
   </tr>
   </tr>
   <tr>
     <td><code>'uci'</code></td>
-    <td></td>
+    <td>The Universal Chess Interface (UCI) chess protocol for communicating the opening</td>
   </tr>
   <tr>
     <td><code>'epd'</code></td>
-    <td>Extended Position Description (EPD) is an extension of FEN (Forsyth–Edwards Notation)</td>
+    <td>The Extended Position Description (EPD) for the opening. EPD is an extension of FEN (Forsyth–Edwards Notation)</td>
   </tr>
 </table>
 
