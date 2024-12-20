@@ -47,4 +47,19 @@ The following <code>.mp3</code> files should be uploaded in a 'sounds' folder:
 <code>game_start.mp3</code> (for initialization and reset of board)
 <code>move.mp3</code> (for each valid move)
 
+<table>
+  <tr>
+    <th>File Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>game_start.mp3</code></td>
+    <td>For initialization and reset of board</td>
+  </tr>
+  <tr>
+    <td><code>move.mp3</code></td>
+    <td>For each valid move</td>
+  </tr>
+</table>
+
 Source: https://www.chess.com/forum/view/general/chessboard-sound-files?page=2#comment-89885805
