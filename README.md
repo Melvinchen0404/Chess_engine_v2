@@ -25,6 +25,6 @@ Upload the executable (<code>.exe</code> file) on Colab and access the Komodo en
 
 **Endgame tablebase**
 
-**Lichess Syzygy endgame tablebase (EGTB)** is accessible through API requests: <code>http://tablebase.lichess.ovh/standard?fen={fen}</code>
+**Lichess Syzygy endgame tablebase (EGTB)** is accessible through API requests: <a href="http://tablebase.lichess.ovh/standard?fen=">http://tablebase.lichess.ovh/standard?fen=</a><code>{fen}</code>
 
 The **Lichess Syzygy EGTB** allows us to access information about WDL (Win/Draw/Loss) and DTZ (Depth to Zero)
