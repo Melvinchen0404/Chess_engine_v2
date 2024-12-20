@@ -13,27 +13,59 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
 
 **Chess engines**
 
-Stockfish: <a href="https://stockfishchess.org/">https://stockfishchess.org/</a>
-
-Initialize the environment with !apt-get install stockfish, before accessing the Stockfish (Linux-based) engine through the path <code>/usr/games/stockfish</code>
-
-Komodo: https://komodochess.com
-
-Download a Linux-based version of Komodo from <a href="https://komodochess.com/downloads.htm">https://komodochess.com/downloads.htm</a>
-
-Upload the executable (<code>.exe</code> file) on Colab and access the Komodo engine
+<table>
+  <tr>
+    <th>Engine</th>
+    <th>Link</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Stockfish</td>
+    <td><a href="https://stockfishchess.org/">https://stockfishchess.org/</a></td>
+    <td>Initialize the environment with !apt-get install stockfish, before accessing the Stockfish (Linux-based) engine through the path <code>/usr/games/stockfish</code></td>
+  </tr>
+  <tr>
+    <td>Komodo</td>
+    <td>https://komodochess.com</td>
+    <td>Download a Linux-based version of Komodo from <a href="https://komodochess.com/downloads.htm">https://komodochess.com/downloads.htm</a>. Upload the executable (<code>.exe</code> file) on Colab and access the Komodo engine</td>
+  </tr>
+</table>
 
 **Lichess openings dataset**
 
 **Lichess openings dataset** is available on Hugging Face: https://huggingface.co/datasets/Lichess/chess-openings
 
-Dictionary keys: <code>'eco-volume', 'eco', 'name', 'pgn', 'uci', 'epd'</code>
-
-The <i>Encyclopaedia of Chess Openings</i> (<i>ECO</i>) is a reference work, originally published in five volumes (A-E) from 1974-1979 
-
-PGN (Portable Game Notation) typically uses Standard Algebraic Notation (SAN) to represent chess moves
-
-Extended Position Description (EPD) is an extension of FEN (Forsyth–Edwards Notation)
+<table>
+  <tr>
+    <th>Dictionary Keys</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>'eco-volume'</code></td>
+    <td>The <i>Encyclopaedia of Chess Openings</i> (<i>ECO</i>) is a reference work, originally published in five volumes (A-E) from 1974-1979</td>
+  </tr>
+  <tr>
+    <td><code>'eco'</code></td>
+    <td></td>
+  </tr>
+    <tr>
+    <td><code>'name'</code></td>
+    <td>Name of opening (for instance, Polish Opening, )</td>
+  </tr>
+    <tr>
+    <td><code>'pgn'</code></td>
+    <td>PGN (Portable Game Notation) typically uses Standard Algebraic Notation (SAN) to represent chess moves</td>
+  </tr>
+  </tr>
+  <tr>
+    <td><code>'uci'</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>'epd'</code></td>
+    <td>Extended Position Description (EPD) is an extension of FEN (Forsyth–Edwards Notation)</td>
+  </tr>
+</table>
 
 **Endgame tablebase**
 
@@ -44,9 +76,6 @@ The **Lichess Syzygy EGTB** allows us to access information about WDL (Win/Draw/
 **Sound files**
 
 The following <code>.mp3</code> files should be uploaded in a 'sounds' folder:
-<code>game_start.mp3</code> (for initialization and reset of board)
-<code>move.mp3</code> (for each valid move)
-
 <table>
   <tr>
     <th>File Name</th>
