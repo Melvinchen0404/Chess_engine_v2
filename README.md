@@ -11,6 +11,10 @@ File for checking the GM database for the best move from the current position (g
 
 Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> function) and commas after surnames removed (using the <code>re.sub(r"[^\w\s]", ""</code> function to remove non-alphanumeric and non-whitespace characters from a string)
 
+**Sapientia chess evaluation function:**
+
+The **Sapientia chess evaluation function** currently provides a static evaluation in terms of material (piece values), position (piece square tables), and mobility (number of legal moves)
+
 **Chess engines:**
 
 <table>
