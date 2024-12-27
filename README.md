@@ -13,7 +13,7 @@ Up to 5 games displayed, with surnames kept (using the <code>.split()[0]</code> 
 
 **Sapientia chess evaluation function:**
 
-The **Sapientia chess evaluation function** currently provides a static evaluation in terms of material (piece values), position (piece square tables), and mobility (number of legal moves)
+The **Sapientia chess evaluation function** currently provides a static evaluation in terms of **material** (piece values), **position** (piece square tables), **mobility** (number of legal moves), and **square control** (central versus non-central squares)
 
 **Chess engines:**
 
